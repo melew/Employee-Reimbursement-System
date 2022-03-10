@@ -1,4 +1,4 @@
-package com.proreva.reimbursement;
+package com.proreva.reimbursement.models;
 
 public enum ReimbursementStatus {
 

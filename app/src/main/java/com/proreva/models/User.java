@@ -1,4 +1,4 @@
-package com.proreva.reimbursement;
+package com.proreva.reimbursement.models;
 
 public class User {
     private int id;
@@ -9,8 +9,8 @@ public class User {
     private String email;
     private UserRoles roleId;
 
-    public User() {
-    }
+   // public User(int id, String partners, String password, String john, String aman, String email, String employee) {
+    //}
 
     public User(int id, String username, String password, String fname, String lname, String email, UserRoles roleId) {
         this.id = id;
@@ -21,6 +21,11 @@ public class User {
         this.email = email;
         this.roleId = roleId;
     }
+
+    public User() {
+
+    }
+
 
     public int getId() {
         return id;
